@@ -1,0 +1,34 @@
+{
+  "name": "mypluralize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Innocenzo/mypluralize.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Innocenzo/mypluralize/issues"
+  },
+  "homepage": "https://github.com/Innocenzo/mypluralize#readme",
+  "devDependencies": {
+    "@types/pluralize": "0.0.29",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "pluralize": "^8.0.0"
+  }
+}
